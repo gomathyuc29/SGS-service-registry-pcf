@@ -1,5 +1,5 @@
 applications:
-- name: consumerservice
+- name: producerservice
   instances: 1
-  memory: 500m
+  memory: 800m
   path: target/ProducerService-0.0.1-SNAPSHOT.jar
