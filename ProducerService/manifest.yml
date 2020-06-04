@@ -3,3 +3,5 @@ applications:
   instances: 1
   memory: 800m
   path: target/ProducerService-0.0.1-SNAPSHOT.jar
+services:
+- pcf
