@@ -9,6 +9,7 @@ pipeline {
             
             	steps{
             			bat 'mvn -f ConsumerService/pom.xml -DskipTests=true clean package '
+
             		}
             }
             
