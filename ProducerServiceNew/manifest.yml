@@ -1,0 +1,5 @@
+applications:
+- name: producerservicenew
+  instances: 1
+  memory: 500m
+  path: target/ProducerServiceNew-0.0.1-SNAPSHOT.jar
